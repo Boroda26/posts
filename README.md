@@ -1,22 +1,15 @@
-# posts
+# Тестовое задание (frontend-developer)
+## Инструменты:
+VueJS / NuxtJS / Axios / Vuex
 
-> My finest Nuxt.js project
+Реализовать:
+* Запрос со стороны сервера NuxtJS на получение списка постов при помощи Axios.
+* Сохранение списка постов в хранилище Vuex.
+* Вывод списка постов на страницу.
+* Удаление поста из списка.
+* Редактирование поста.
 
-## Build Setup
+В качестве тестового REST API сервера использовать сервис https://jsonplaceholder.typicode.com/
 
-``` bash
-# install dependencies
-$ npm run install
+Для визуального представления можно использовать сторонние библиотеки BootstrapVue / Veutify
 
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
